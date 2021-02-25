@@ -2,5 +2,14 @@
   "name": "typechain",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
 }
